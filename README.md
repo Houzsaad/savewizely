@@ -45,7 +45,6 @@ Deployment: Render
 
 ## Project Structure
 
-text```
 Code
 Setup
 Bash
@@ -68,7 +67,7 @@ Request a password reset link
 /reset-password/
 POST
 Reset password with token
-```
+
 
 ##Setup
 # Clone and enter the project
