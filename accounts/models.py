@@ -3,13 +3,7 @@ from django.contrib.auth.models import AbstractUser
 
 
 class User(AbstractUser):
-    phone_number = models.CharField(max_length=11, unique=True)
-
-
-class Wallet(models.Model):
-    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='wallet')
-    balance = models.DecimalField(max_digits=14, decimal_places=2, default=0)
-    created_at = models.DateTimeField(auto_now_add=True)
+    phone_number = models.CharField(max_length=11)
 
 
 class LockedSavings(models.Model):

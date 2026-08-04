@@ -88,7 +88,7 @@ python manage.py migrate
 python manage.py runserver 
 More endpoints (wallet, locked savings, goals) will be documented here as they're built.
 
-**Roadmap**
+## Roadmap
 ✅ Authentication
 ⬜ Wallet + Paystack funding
 ⬜ Locked Savings
