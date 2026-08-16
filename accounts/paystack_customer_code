@@ -1,0 +1,13 @@
+#!/bin/sh
+
+url='https://api.paystack.co/customer'
+authorization='Authorization: Bearer settings.PAYSTACK_SECRET_KEY'
+content_type='Content-Type: apllication/json'
+
+data='{
+    'username': 'customer.usermane',
+    'email': 'customer.email',
+    'phone_number': '09012566787' 
+}'
+
+curl "$url' -H "$authorization" -H "$content_type" -d "$date" -X POST
