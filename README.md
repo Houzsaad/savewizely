@@ -43,6 +43,12 @@ Payments: Paystack (wallet funding)
 Scheduled tasks: Celery + Redis (for lock maturity checks)
 Deployment: Render
 
+## 📚 API Documentation
+
+Explore and test the SaveWise API through the public Postman collection.
+
+👉 [View API Documentation](https://www.postman.com/houzsaad-8621723/workspace/savings-platform-api/collection/51804022-9d7fa873-6264-41bd-be2d-040dc206780c?action=share&source=copy-link&creator=51804022)
+
 ## Project Structure
 
 Code
