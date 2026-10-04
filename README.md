@@ -95,13 +95,14 @@ python manage.py runserver
 More endpoints (wallet, locked savings, goals) will be documented here as they're built.
 
 ## Roadmap
--✅ Authentication
--⬜ Wallet + Paystack funding
--⬜ Locked Savings
--⬜ Goal-Based Savings
--⬜ Early Unlock + penalty logic
--⬜ Transaction history + PDF receipts
--⬜ API docs (Swagger), tests, deployment
+- ✅ Authentication
+- ⬜ Wallet + Paystack funding
+- ⬜ Locked Savings
+- ⬜ Goal-Based Savings
+- ⬜ Early Unlock + penalty logic
+- ⬜ Transaction history + PDF receipts
+- ⬜ API docs (Swagger), tests, deployment
+
 
 Author
 Built by Huzaifa Sa'ad as a portfolio/fintech backend project.
